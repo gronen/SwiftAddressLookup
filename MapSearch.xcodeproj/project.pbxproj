@@ -14,6 +14,9 @@
 		73B469142187C39300AD893F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73B469122187C39300AD893F /* LaunchScreen.storyboard */; };
 		73B4691F2187C39300AD893F /* MapSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B4691E2187C39300AD893F /* MapSearchTests.swift */; };
 		73B4692A2187C39300AD893F /* MapSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B469292187C39300AD893F /* MapSearchUITests.swift */; };
+		73B469382187C3CA00AD893F /* MapNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B469372187C3CA00AD893F /* MapNetworkManager.swift */; };
+		73B4693A2187F38700AD893F /* MapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B469392187F38700AD893F /* MapTableViewCell.swift */; };
+		73B4693C2187FEFA00AD893F /* MapURLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B4693B2187FEFA00AD893F /* MapURLRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		73B469252187C39300AD893F /* MapSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73B469292187C39300AD893F /* MapSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSearchUITests.swift; sourceTree = "<group>"; };
 		73B4692B2187C39300AD893F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73B469372187C3CA00AD893F /* MapNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapNetworkManager.swift; sourceTree = "<group>"; };
+		73B469392187F38700AD893F /* MapTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTableViewCell.swift; sourceTree = "<group>"; };
+		73B4693B2187FEFA00AD893F /* MapURLRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapURLRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 			children = (
 				73B469092187C39200AD893F /* AppDelegate.swift */,
 				73B4690B2187C39200AD893F /* ViewController.swift */,
+				73B4693B2187FEFA00AD893F /* MapURLRequest.swift */,
+				73B469392187F38700AD893F /* MapTableViewCell.swift */,
+				73B469372187C3CA00AD893F /* MapNetworkManager.swift */,
 				73B4690D2187C39200AD893F /* Main.storyboard */,
 				73B469102187C39300AD893F /* Assets.xcassets */,
 				73B469122187C39300AD893F /* LaunchScreen.storyboard */,
@@ -258,6 +267,9 @@
 			files = (
 				73B4690C2187C39200AD893F /* ViewController.swift in Sources */,
 				73B4690A2187C39200AD893F /* AppDelegate.swift in Sources */,
+				73B4693A2187F38700AD893F /* MapTableViewCell.swift in Sources */,
+				73B469382187C3CA00AD893F /* MapNetworkManager.swift in Sources */,
+				73B4693C2187FEFA00AD893F /* MapURLRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
